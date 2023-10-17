@@ -5,8 +5,8 @@
   "author": "niklas berg <me@niklasberg.se>",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode=development --output-dir=build",
-    "deploy": "webpack  --mode=production --config webpack.production.config.js --output-dir=dist",
+    "dev": "webpack --mode=development",
+    "deploy": "webpack  --mode=production --config webpack.production.config.js",
     "test": "eslint ./src/**/**.js"
   },
   "license": "MIT",
