@@ -56,12 +56,10 @@ module.exports = {
       },
       hash: true
     }),
-    new CopyWebpackPlugin({
-      patterns: [
-        { from: './assets/image', to: './build/assets/image' },
-        { from: './assets/music', to: './build/assets/music' }
-      ]
-    })
+    new CopyWebpackPlugin([
+      { from: './src/image', to: './src/image' },
+      { from: './src/sound', to: './src/sound' }
+    ])
   ],
   module: {
     rules: [
