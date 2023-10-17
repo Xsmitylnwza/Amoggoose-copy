@@ -5,18 +5,18 @@ import _mobilesite from './tools/_mobilesite';
 import _movementTemplate from './tools/_movementTemplate';
 import _forest1 from './tools/_Forest1';
 
-// import MainMenu from './scenes/cutscene/MainMenu';
-// import CutScene1 from './scenes/CUTSCENE/CutScene1';
-// import CutScene2 from './scenes/CUTSCENE/CutScene2';
-// import CutScene3 from './scenes/CUTSCENE/CutScene3';
+import MainMenu from './scenes/cutscene/MainMenu';
+import CutScene1 from './scenes/CUTSCENE/CutScene1';
+import CutScene2 from './scenes/CUTSCENE/CutScene2';
+import CutScene3 from './scenes/CUTSCENE/CutScene3';
 import Delivery from './scenes/Delivery';
-// import Delivery2 from './scenes/Delivery2';
+import Delivery2 from './scenes/Delivery2';
 import Temple from './scenes/Temple';
 import PathSelection from './scenes/PathSelection';
 import CodingPath from './scenes/CodingPath';
 import DesignPath from './scenes/DesignPath';
-// import Ending from './scenes/CUTSCENE/Ending';
-// import Summarize from './scenes/CUTSCENE/Summarize';
+import Ending from './scenes/CUTSCENE/Ending';
+import Summarize from './scenes/CUTSCENE/Summarize';
 
 const config = {
   type: Phaser.AUTO,
